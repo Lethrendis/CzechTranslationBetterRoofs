@@ -22,7 +22,7 @@
       "path": "lang/cs.json"
     }
   ],
-  "url": "https://github.com/Lethrendis/CzechTranslationBetterRoofs",
+  "url": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationBetterRoofs/main/module.json",
   "manifest": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationBetterRoofs/main/module.json",
   "download": "https://github.com/Lethrendis/CzechTranslationBetterRoofs/archive/refs/heads/main.zip"
 }
