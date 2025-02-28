@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro BetterRoofs verze 2.0.6. Obsahuje p
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://github.com/Lethrendis/CzechTranslationBetterRoofs
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationBetterRoofs/main/module.json
 ```
 
 ## Autor
