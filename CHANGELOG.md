@@ -1,5 +1,5 @@
 Changelog
 
-Verze 1.0.0:
+Verze 1.1.0:
 První verze modulu.
-Kompletní překlad BetterRoofs 2.0.6.
+Kompletní překlad BetterRoofs 3.0.0.
