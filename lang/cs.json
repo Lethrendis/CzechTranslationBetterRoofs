@@ -28,8 +28,8 @@
     "betterroofs.tileConfig.definePoly.name": "Definovat polygon",
     "betterroofs.tileConfig.clearPoly.name": "Odstranit polygon",
     "betterroofs.tileConfig.definePoly.notify": "Vyber stěny, které chceš pro polygon použít, a poté pro potvrzení znovu klikni na tlačítko ´Definovat polygon´",
-    "betterroofs.tileConfig.occlusionLinkId": "ID odkazu zakrytí",
-    "betterroofs.tileConfig.occlusionLinkIdHint": "Může to být jakýkoli text. Když je dlaždice s propojením zdrojů zakrytí zakrytá (má pod sebou token), všechny dlaždice se stejným ID propojení zakrytí budou také zakryté. Příklad použití: propojení střech.",
+    "betterroofs.tileConfig.occlusionLinkId": "ID spojení zakrytí",
+    "betterroofs.tileConfig.occlusionLinkIdHint": "Může to být jakýkoli text. Když je dlaždice se propojenými zdroji zakrytí zakrytá (má pod sebou token), všechny dlaždice se stejným ID propojení zakrytí budou také zakryté. Příklad použití: propojení střech.",
     "betterroofs.tileConfig.occlusionLinkSource": "Spojení zdrojů zakrytí?",
 
     "betterroofs.tileConfig.isbroken": "Automatická detekce polygonu pro tuto dlaždici mohla selhat. Povol v nastavení modulu ´Pokročilý režim´ a polygon definuj ručně.",
