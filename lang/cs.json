@@ -1,48 +1,15 @@
 {
-    "betterroofs.settings.fogVisibility.name": "Viditelnost dlaždic skrze mlhu",
-    "betterroofs.settings.fogVisibility.hint": "Jak viditelné (nebo jak jasně vnímatelné) jsou dlaždice zobrazené přes mlhu.",
-
-    "betterroofs.settings.forceFallback.name": "Režim výkonu",
-    "betterroofs.settings.forceFallback.hint": "Vynutí režim skrytí pro všechny masky střech. Povol to, pokud máš problémy s výkonem.",
-
-    "betterroofs.settings.roomPreview.name": "Pokročilý režim",
-    "betterroofs.settings.roomPreview.hint": "Při otevření konfigurace dlaždice zobrazí, co detekce budov rozpoznala jako budovu. Také zpřístupní ovládací prvky ručního nastavení polygonu místnosti. Je to užitečné pro ladění.",
-
-    "betterroofs.settings.wbIntegration.name": "Integrace Weather Blocker",
-    "betterroofs.settings.wbIntegration.hint": "Pokud je nainstalován modul ´Weather Blocker´, dynamicky skryje počasí uvnitř budov. (Vyžaduje znovunačtení)",
-
-    "betterroofs.settings.occlusionRadius.name": "Poloměr zakrytí",
-    "betterroofs.settings.occlusionRadius.hint": "Násobitel poloměru pro režim radiálního zakrytí.",
-
-    "betterroofs.tokenConfig.occlusionRadius.name": "Poloměr zakrytí",
-    "betterroofs.tokenConfig.occlusionRadius.placeholder": "Výchozí",
-
-    "betterroofs.tileConfig.showInFog.name": "Má odhalovat válečnou mlhu?",
-    "betterroofs.tileConfig.showInFog.hint": "Když token tuto dlaždici vidí, bude dlaždice viditelná i přes válečnou mlhu. Nepracuje s osvětlením.",
-    "betterroofs.tileConfig.brMode.name": "Režim lepších střech",
-    "betterroofs.tileConfig.brMode.option0": "Žádný (výchozí Foundry)",
-    "betterroofs.tileConfig.brMode.option1": "Zobrazit (zobrazí dlaždici skrze mlhu)",
-    "betterroofs.tileConfig.brMode.option2": "Skrýt (skryje viditelnou dlaždici)",
-    "betterroofs.tileConfig.brMode.option3": "Maska (vyřízne viditelnou dlaždici)",
-    "betterroofs.tileConfig.manualPoly.name": "Vybrané stěny",
-    "betterroofs.tileConfig.definePoly.name": "Definovat polygon",
-    "betterroofs.tileConfig.clearPoly.name": "Odstranit polygon",
-    "betterroofs.tileConfig.definePoly.notify": "Vyber stěny, které chceš pro polygon použít, a poté pro potvrzení znovu klikni na tlačítko ´Definovat polygon´",
-    "betterroofs.tileConfig.occlusionLinkId": "ID spojení zakrytí",
-    "betterroofs.tileConfig.occlusionLinkIdHint": "Může to být jakýkoli text. Když dlaždice se spojenými zdroji zakrytí zakrývá (má pod sebou token), všechny dlaždice se stejným ID spojení zakrytí budou také zakrývat. Příklad použití: propojení střech.",
-    "betterroofs.tileConfig.occlusionLinkSource": "Spojovat zdroje zakrytí?",
-
-    "betterroofs.tileConfig.isbroken": "Automatická detekce polygonu pro tuto dlaždici mohla selhat. Povol v nastavení modulu ´Pokročilý režim´ a polygon definuj ručně.",
-
-    "betterroofs.wallConfig.externalWall.name": "Je to vnější stěna?",
-
-    "betterroofs.scenecontrols.walledges": "Ohradit okraje scény",
-
-    "betterroofs.yesnodialog.yes": "Potvrdit",
-    "betterroofs.yesnodialog.no": "Zrušit",
-    "betterroofs.yesnodialog.title": "Omezení okrajů scény",
-    "betterroofs.yesnodialog.desc": "Opravdu chceš omezit okraje scény?",
-
-    "betterroofs.bulk.notification": "VAROVÁNÍ: Tato operace změní všechna nastavení pro všechny vybrané nadzemní dlaždice. Pokud nejsou vybrány žádné konkrétní dlaždice, budou zpracovány všechny nadzemní dlaždice. Nadzemní dlaždice s režimem ´Lepší střechy´ nastaveným na ´Žádný´ ovlivněny nebudou.",
-    "betterroofs.bulk.title": "Hromadná změna lepších střech ve scéně"
+    "betterroofs": { 
+        "tileConfig": {
+            "showInFog.name": "Odhalení mlhy války",
+            "showInFog.hint": "Když má token na tuto dlaždici výhled, bude tato dlaždice viditelná i přes mlhu války. Neplatí pro osvětlení.",
+            "occlusionLinkId": "ID propojení zakrytí",
+            "occlusionLinkIdHint": "Může to být libovolný text. Když má dlaždice se zapnutou volbou ´Zdroj propojení zakrytí?´ pod sebou token, všechny dlaždice se stejným ´ID propojení zakrytí´ budou také zakryty. Například tak lze propojit střechy dohromady.",
+            "occlusionLinkSource": "Zdroj propojení zakrytí?"
+        },
+        "settings": {
+            "hoverFade.name": "Zmizet po přejetí myší?",
+            "hoverFade.hint": "Je-li zaškrtnuto, střechy po přejetí myší zmizí. Je to základní funkce Foundry VTT, toto nastavení ji pouze umožňuje vypnout."
+        }
+    }
 }
